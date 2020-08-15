@@ -1,0 +1,39 @@
+{
+  "name": "dashing-console",
+  "version": "0.1.1",
+  "description": "Super easy and simple console dashboard",
+  "main": "dist/index.js",
+  "bin": {
+    "dashing-console": "dist/cli.js"
+  },
+  "repository": "https://artursvonda@github.com/artursvonda/dashing-console.git",
+  "author": "Arturs Vonda <git@artursvonda.lv>",
+  "license": "MIT",
+  "files": [
+    "dist/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=12.10"
+  },
+  "dependencies": {
+    "post-blessed": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.17",
+    "@types/node": "12",
+    "prettier": "^2.0.5",
+    "typescript": "3.9.x"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": [],
+    "target": "es2019",
+    "types": ["node"],
+    "module": "commonjs",
+    "moduleResolution": "node"
+  }
+}
